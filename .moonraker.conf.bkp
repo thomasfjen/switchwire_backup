@@ -5,6 +5,16 @@ port = 7125
 [file_manager]
 enable_object_processing = True
 
+[power printer_power]
+type = tasmota
+address = 192.168.2.60
+off_when_shutdown = True
+off_when_shutdown_delay = 0
+
+[power filament_heater]
+type = tasmota
+address = 192.168.2.59
+
 [authorization]
 cors_domains = 
 	https://my.mainsail.xyz
