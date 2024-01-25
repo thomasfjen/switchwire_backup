@@ -7,6 +7,12 @@ klippy_uds_address = ~/printer_data/comms/klippy.sock
 [file_manager]
 enable_object_processing = true
 
+[power VSW]
+type = tasmota
+address = 192.168.2.60
+password = 
+off_when_shutdown = False
+
 [authorization]
 cors_domains = 
 	https://my.mainsail.xyz
